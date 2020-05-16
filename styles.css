@@ -231,6 +231,11 @@ p {
 .icon {
   padding-right: 2%;
   padding-left: 2%;
+  opacity: 0.7;
+}
+
+.icon:hover {
+  opacity: 1;
 }
 
 .footer-links {
@@ -246,6 +251,14 @@ p {
 .footer-links p:first-child {
   color: #ababab;
   margin: 8%;
+}
+
+.link-section p:hover {
+  text-decoration: underline;
+}
+
+.link-section p:first-child:hover {
+  text-decoration: none;
 }
 
 /* Media Queries */
