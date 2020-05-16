@@ -84,13 +84,13 @@ p {
 
 /*****************************Header********************************/
 .header-images-mobile {
-  background: url("images/image-intro-mobile.JPG") no-repeat center center/cover;
+  background: url("images/image-intro-mobile.jpg") no-repeat center center/cover;
   height: 350px;
 }
 
 .header {
   background-color: hsl(256, 26%, 20%);
-  background-image: url("images/bg-pattern-intro-left-mobile.SVG"), url("images/bg-pattern-intro-right-mobile.SVG");
+  background-image: url("images/bg-pattern-intro-left-mobile.svg"), url("images/bg-pattern-intro-right-mobile.svg");
   background-position: left top, right bottom;
   background-repeat: no-repeat;
   padding-top: 10%;
@@ -105,7 +105,7 @@ p {
 
 .header-transition {
   background-color: #ffffff;
-  background-image: url("images/bg-pattern-intro-right-mobile.SVG");
+  background-image: url("images/bg-pattern-intro-right-mobile.svg");
   background-position: right bottom;
   background-repeat: no-repeat;
   height: 120px;
@@ -182,7 +182,7 @@ p {
 
 /********************************Banner*************************/
 .banner {
-  background: hsl(256, 26%, 20%) url("images/bg-pattern-how-we-work-mobile.SVG") no-repeat right;
+  background: hsl(256, 26%, 20%) url("images/bg-pattern-how-we-work-mobile.svg") no-repeat right;
   height: 300px;
   margin: 20% 5%;
 }
@@ -211,7 +211,7 @@ p {
 
 /**************************Footer******************************/
 .footer {
-    background: hsl(0, 0%, 98%) url("images/bg-pattern-footer-mobile.SVG") no-repeat;
+    background: hsl(0, 0%, 98%) url("images/bg-pattern-footer-mobile.svg") no-repeat;
   text-align: center;
 }
 
@@ -254,7 +254,7 @@ p {
   and (min-width: 450px)
   and (max-width: 550px) {
   .header-images-mobile {
-    background: url("images/image-intro-desktop.JPG") no-repeat center center/cover;
+    background: url("images/image-intro-desktop.jpg") no-repeat center center/cover;
     height: 450px;
   }
 }
@@ -291,7 +291,7 @@ and (max-width: 850px) {
   }
 
   .header-images-desktop img {
-    background: url("images/image-intro-desktop.JPG") no-repeat center center/cover;
+    background: url("images/image-intro-desktop.jpg") no-repeat center center/cover;
     display: inline-block;
     position: absolute;
     right: 8%;
@@ -301,7 +301,7 @@ and (max-width: 850px) {
   }
 
   .header {
-    background-image: url("images/bg-pattern-intro-left-desktop.SVG"), url("images/bg-pattern-intro-right-desktop.SVG");
+    background-image: url("images/bg-pattern-intro-left-desktop.svg"), url("images/bg-pattern-intro-right-desktop.svg");
     background-position: left bottom, right top;
     /* background-position-y: 300px, 0;
     background-position-x: 0, right 0; */
@@ -315,7 +315,7 @@ and (max-width: 850px) {
   }
 
   .header-transition {
-    background-image: url("images/bg-pattern-intro-left-desktop.SVG");
+    background-image: url("images/bg-pattern-intro-left-desktop.svg");
     background-position: left bottom;
     padding: 100px 0;
   }
@@ -420,14 +420,14 @@ and (max-width: 850px) {
     }
 
     .header {
-      background-image: url("images/bg-pattern-intro-left-desktop.SVG"), url("images/bg-pattern-intro-right-desktop.SVG");
+      background-image: url("images/bg-pattern-intro-left-desktop.svg"), url("images/bg-pattern-intro-right-desktop.svg");
       background-position: left bottom, right top;
       background-repeat: no-repeat;
       padding-top: 5%;
     }
 
     .header-transition {
-      background-image: url("images/bg-pattern-intro-left-desktop.SVG");
+      background-image: url("images/bg-pattern-intro-left-desktop.svg");
       background-position: left bottom;
       background-repeat: no-repeat;
     }
@@ -476,7 +476,7 @@ and (max-width: 850px) {
     }
 
     .banner {
-      background-image: url("images/bg-pattern-how-we-work-desktop.SVG");
+      background-image: url("images/bg-pattern-how-we-work-desktop.svg");
       background-position: right;
       background-repeat: no-repeat;
       height: 250px;
