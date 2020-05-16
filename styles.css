@@ -1,0 +1,541 @@
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  font-family: 'Karla', sans-serif;
+}
+
+h1 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 3rem;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+}
+
+/*************Navigation Pane************/
+.nav {
+  align-items: center;
+  background-color: #ffffff;
+  display: flex;
+  height: 60px;
+  padding: 0 7%;
+  justify-content: space-between;
+}
+
+.logo {
+  /* padding-left: 4%; */
+  /* width: 15%;
+  height: 35%; */
+}
+
+.nav-right {
+  /* position: absolute; */
+  /* right: 3%; */
+  display: flex;
+}
+
+.nav-item {
+  display: none;
+  line-height: 30px;
+  margin: 0 10px;
+  padding: 0 20px;
+  opacity: 70%;
+}
+
+.nav-item:hover {
+  opacity: 100%;
+}
+
+.nav-item:last-child {
+  border: 1px solid hsl(256, 26%, 20%);
+}
+
+.nav-item:last-child:hover {
+  background-color: hsl(256, 26%, 20%);
+  color: #fff;
+}
+
+.nav-right img {
+}
+
+#dropdown {
+  background-color: hsl(256, 26%, 20%);
+  display: none;
+}
+
+#dropdown a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 14px 17px;
+  font-size: 17px;
+}
+
+#dropdown a:last-child {
+  border: 1px solid #fff;
+}
+
+#dropdown a:last-child:hover {
+  background-color: hsl(256, 26%, 20%);
+  color: #fff;
+}
+
+/*****************************Header********************************/
+.header-images-mobile {
+  background: url("images/image-intro-mobile.JPG") no-repeat center center/cover;
+  height: 350px;
+}
+
+.header {
+  background-color: hsl(256, 26%, 20%);
+  background-image: url("images/bg-pattern-intro-left-mobile.SVG"), url("images/bg-pattern-intro-right-mobile.SVG");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+  padding-top: 10%;
+  text-align: center;
+}
+
+.header-top {
+  padding-bottom: 16%;
+  padding-right: 14%;
+  padding-left: 14%;
+}
+
+.header-transition {
+  background-color: #ffffff;
+  background-image: url("images/bg-pattern-intro-right-mobile.SVG");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  height: 120px;
+  text-align: center;
+}
+
+.header-transition div {
+  padding-top: 100px;
+  margin: 0 33%;
+  height: 1;
+  width: 35%;
+  border-bottom: solid hsl(256, 50%, 80%) 0.5px;
+}
+
+.header h1 {
+  line-height: 50px;
+  font-weight: 300;
+}
+
+.header p {
+  line-height: 25px;
+}
+
+.headText {
+  color: #ffffff;
+}
+
+.header-button {
+  background-color: transparent;
+  border: white solid 1px;
+  color: #ffffff;
+  font-family: 'Karla', sans-serif;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.header-button:hover {
+  background-color: #fff;
+  color: hsl(256, 26%, 20%);
+}
+
+.header-images-desktop img {
+  display: none;
+}
+
+/*******************************Middle**********************/
+.middle {
+  padding: 0 12%;
+}
+
+.middle h1 {
+  font-weight: 300;
+}
+
+.middle-flex h3 {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.middle-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.middle-item {
+  padding-top: 5%;
+  padding: 5%;
+}
+
+.middle-flex p {
+  color: hsl(0, 0%, 40%);
+}
+
+/********************************Banner*************************/
+.banner {
+  background: hsl(256, 26%, 20%) url("images/bg-pattern-how-we-work-mobile.SVG") no-repeat right;
+  height: 300px;
+  margin: 20% 5%;
+}
+
+.banner h2 {
+  color: white;
+  font-family: 'DM Serif Display', serif;
+  font-size: 2rem;
+  font-weight: 300;
+  padding: 75px 15% 1%;
+}
+
+.banner button {
+  background-color: transparent;
+  border: white solid 1px;
+  color: #ffffff;
+  font-family: 'Karla', sans-serif;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.banner button:hover {
+  background-color: #fff;
+  color: hsl(256, 26%, 20%);
+}
+
+/**************************Footer******************************/
+.footer {
+    background: hsl(0, 0%, 98%) url("images/bg-pattern-footer-mobile.SVG") no-repeat;
+  text-align: center;
+}
+
+.footer-top {
+  /* background: hsl(0, 0%, 98%) url("images/bg-pattern-footer-mobile.SVG") no-repeat; */
+  padding: 15%;
+  height: 100px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  padding: 10% 10% 20%;
+  border-bottom: solid hsl(0, 0%, 70%) 1px;
+}
+
+.icon {
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.footer-links {
+  /* background: hsl(0, 0%, 98%); */
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5%;
+}
+
+.footer-links p:first-child {
+  color: #ababab;
+  margin: 8%;
+}
+
+/* Media Queries */
+
+@media screen
+  and (min-width: 450px)
+  and (max-width: 550px) {
+  .header-images-mobile {
+    background: url("images/image-intro-desktop.JPG") no-repeat center center/cover;
+    height: 450px;
+  }
+}
+
+@media screen
+  and (min-width: 550px)
+  and (max-width: 700px) {
+  .header-images-mobile {
+    height: 550px;
+  }
+}
+
+@media screen
+and (min-width: 700px)
+and (max-width: 850px) {
+  .header-images-mobile {
+    height: 650px;
+  }
+}
+
+@media screen
+  and (min-width: 850px)
+  and (max-width: 1200px) {
+  .nav-item {
+    display: initial;
+  }
+
+  .nav-right img {
+    display: none;
+  }
+
+  .header-images-mobile {
+    display: none;
+  }
+
+  .header-images-desktop img {
+    background: url("images/image-intro-desktop.JPG") no-repeat center center/cover;
+    display: inline-block;
+    position: absolute;
+    right: 8%;
+    top: 100px;
+    height: 400px;
+    width: 350px;
+  }
+
+  .header {
+    background-image: url("images/bg-pattern-intro-left-desktop.SVG"), url("images/bg-pattern-intro-right-desktop.SVG");
+    background-position: left bottom, right top;
+    /* background-position-y: 300px, 0;
+    background-position-x: 0, right 0; */
+    padding: 0;
+  }
+
+  .header-top {
+    padding: 0;
+    margin-bottom: 5%;
+    text-align: left;
+  }
+
+  .header-transition {
+    background-image: url("images/bg-pattern-intro-left-desktop.SVG");
+    background-position: left bottom;
+    padding: 100px 0;
+  }
+
+  .header-transition div {
+    padding-top: 200px;
+    margin: 0 0 0 7%;
+    width: 250px;
+  }
+
+  .header-top {
+    padding: 5% 7%;
+    width: 40%;
+  }
+
+  .middle {
+    margin: 0 7%;
+    padding: 0;
+    text-align: left;
+  }
+
+  .middle-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+
+  .middle-item {
+    padding: 5% 0;
+  }
+
+  .middle-item:first-child {
+    padding-right: 5%;
+  }
+
+  .middle-item:last-child {
+    padding-left: 5%;
+  }
+
+  .banner {
+    margin: 10% 7%;
+    display: flex;
+  }
+
+  .banner h2 {
+    font-size: 3rem;
+    padding: 73px 12% 2% 10%;
+    text-align: left;
+  }
+
+  .banner button {
+    height: 30px;
+    width: 220px;
+    padding: 0;
+    margin: 140px 7% 0 0;
+  }
+
+  .footer-top {
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 7% 0;
+  }
+
+  .footer-icons {
+    align-items: right;
+    padding: 0;
+    border: none;
+  }
+
+  .icon {
+    height: 25px;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 5%;
+    width: 70%;
+    margin: 0 7%;
+  }
+
+  .footer-links p {
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .footer-links p:first-child {
+    margin: 0;
+    padding-bottom: 10%;
+  }
+}
+
+@media screen
+  and (min-width: 1200px) {
+    .nav-item {
+      display: initial;
+    }
+
+    .nav-right img {
+      display: none;
+    }
+
+    .header {
+      background-image: url("images/bg-pattern-intro-left-desktop.SVG"), url("images/bg-pattern-intro-right-desktop.SVG");
+      background-position: left bottom, right top;
+      background-repeat: no-repeat;
+      padding-top: 5%;
+    }
+
+    .header-transition {
+      background-image: url("images/bg-pattern-intro-left-desktop.SVG");
+      background-position: left bottom;
+      background-repeat: no-repeat;
+    }
+
+    .header-top {
+      text-align: left;
+      width: 35%;
+      padding: 0 7% 8%;
+    }
+
+    .header-top p {
+      margin: 35px 0 35px 0;
+    }
+
+    .header-transition {
+      padding-top: 15%;
+    }
+
+    .header-images-mobile {
+      display: none;
+    }
+
+    .header-images-desktop img {
+      display: initial;
+      position: absolute;
+      right: 8%;
+      top: 15%;
+    }
+
+    .header-transition div {
+      margin: 0 0 0 7%;
+    }
+
+    .middle {
+      text-align: left;
+      padding: 0 7%;
+    }
+
+    .middle-flex {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .middle-item {
+      padding: 5% 2% 0;
+    }
+
+    .banner {
+      background-image: url("images/bg-pattern-how-we-work-desktop.SVG");
+      background-position: right;
+      background-repeat: no-repeat;
+      height: 250px;
+      margin: 10% 7%;
+      position: relative;
+    }
+
+    .banner h2 {
+      display: inline-block;
+      font-size: 3rem;
+      position: absolute;
+      left: 7%;
+      top: 20%;
+      text-align: left;
+      padding: 0;
+      margin: 0;
+      width: 42%;
+    }
+
+    .banner button {
+      display: inline-block;
+      position: absolute;
+      right: 13%;
+      top: 45%;
+    }
+
+    .footer-top {
+      display: flex;
+      justify-content: space-between;
+      padding: 5% 7% 0;
+    }
+
+    .footer-icons {
+      align-items: right;
+      padding: 0;
+      border: none;
+    }
+
+    .icon {
+      height: 25px;
+    }
+
+    .footer-links {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-bottom: 5%;
+      width: 70%;
+      margin: 0 7%;
+    }
+
+    .footer-links p {
+      flex-direction: column;
+      text-align: left;
+    }
+
+    .footer-links p:first-child {
+      margin: 0;
+      padding-bottom: 10%;
+    }
+
+  }
